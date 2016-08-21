@@ -14,10 +14,10 @@
 }
 
 .logo {
-    max-width: 120px;
+    max-width: 110px;
     position: absolute;
-    top: 3px;
-    left: 60px;
+    top: 5px;
+    left: 48px;
 }
 
 .cover {
@@ -229,7 +229,7 @@
     /*width: 60%;*/
     height: 25px;
     text-align: center;
-    top: 26px;
+    top: 27px;
     right: 0px;
 }
 

@@ -12,6 +12,13 @@ body {
     padding: 0;
 }
 
+.cover {
+    position: fixed;
+    left: -12px;
+    top: -100px;
+    opacity: 0;
+}
+
 .bottom {
     position: absolute;
     bottom: 10px;
