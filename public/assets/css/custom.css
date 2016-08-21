@@ -14,10 +14,17 @@
 }
 
 .logo {
+<<<<<<< HEAD
     max-width: 110px;
     position: absolute;
     top: 5px;
     left: 48px;
+=======
+    max-width: 120px;
+    position: absolute;
+    top: 3px;
+    left: 60px;
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
 }
 
 .cover {
@@ -229,7 +236,11 @@
     /*width: 60%;*/
     height: 25px;
     text-align: center;
+<<<<<<< HEAD
     top: 27px;
+=======
+    top: 26px;
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
     right: 0px;
 }
 
@@ -321,17 +332,24 @@ select {
 .waikikiFix {
     position: relative;
     font-family: Fox;
+<<<<<<< HEAD
+=======
+    color: #777 !important;
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
     z-index: 1;
     height: 0px;
     vertical-align: middle;
     padding-top: 8%;
     margin-bottom: 12%;
     padding-left: 3%;
+<<<<<<< HEAD
     color: black !important;
     /*word-spacing: -10px;*/
     letter-spacing: 1px;
     font-weight: 100000;
     /*border: 1px solid black;*/
+=======
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
 }
 
 .Address {
@@ -387,6 +405,7 @@ select {
 
 .hotspot {
     font-size: 8vh !important;
+<<<<<<< HEAD
 }
 
 .backButtonW {
@@ -397,4 +416,6 @@ select {
     height: 40px;
     z-index: 20000;
     opacity: 0.6;
+=======
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
 }

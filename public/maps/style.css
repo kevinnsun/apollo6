@@ -1,4 +1,5 @@
 html,
+<<<<<<< HEAD
 body {
     width: 100%;
     height: 100%;
@@ -336,3 +337,337 @@ body {
 a {
     text-decoration: none !important;
 }
+=======
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #map {
+        height: 100%;
+    }
+    
+    .right {
+        right: 0;
+        transition: all 0.4s;
+    }
+    
+    .box {
+        top: 52%;
+        width: 75%;
+        height: 15%;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: rgba(76, 76, 76, 0.9);
+        right: -80%;
+        position: fixed;
+        z-index: 1;
+        transition: all 0.4s;
+        border-radius: 15px 0 0 15px;
+        text-align: center;
+        vertical-align: bottom;
+        font-size: 7vh;
+    }
+    
+    .hotspot {
+        top: 52%;
+        width: 75%;
+        height: 15%;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: rgba(76, 76, 76, 0.9);
+        right: -80%;
+        position: fixed;
+        z-index: 1;
+        transition: all 0.4s;
+        border-radius: 15px 0 0 15px;
+        text-align: center;
+        vertical-align: bottom;
+        font-size: 7vh;
+    }
+    
+    .right {
+        right: 0%;
+        transition: all 0.4s;
+    }
+    
+    .backButton {
+        z-index: 1 !important;
+    }
+    
+    .right1 {
+        right: 25%;
+        transition: all 0.4s;
+        background-color: transparent;
+        color: rgba(76, 76, 76, 0.75);
+        z-index: 2;
+    }
+    
+    .info {
+        height: 100%;
+        width: 100%;
+        background-color: #f7f7f7;
+        transition: all 0.4s;
+        z-index: 1;
+        position: absolute;
+        right: -100%;
+        overflow-y: hidden !important;
+    }
+    
+    .right2 {
+        right: 0;
+        transition: all 0.4s;
+    }
+    
+    .waikiki {
+        line-height: 330px;
+        position: relative;
+        background-image: url('images/waikiki beach.png');
+        background-size: cover;
+        width: 45vh;
+        height: 45vh;
+        margin: auto;
+        border-radius: 100%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        margin-top: 4vh;
+    }
+    
+    .beach {
+        top: 20%;
+        position: relative;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 4.5vh;
+    }
+    
+    .beach1 {
+        top: 20%;
+        position: relative;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 4.5vh;
+    }
+    
+    .distance {
+        font-size: 50%;
+    }
+    
+    .distance1 {
+        top: 20%;
+        position: relative;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 35%;
+    }
+    
+    .extra {
+        top: 56%;
+        width: 75%;
+        height: 15%;
+        background: linear-gradient( rgba(255, 0, 0, 0), rgba(255, 255, 255, 0.7));
+        ;
+        color: rgba(76, 76, 76, 0.9);
+        right: 0;
+        position: fixed;
+        z-index: 1;
+        transition: all 0.4s;
+        border-radius: 15px 0 0 15px;
+        text-align: center;
+        vertical-align: bottom;
+        font-size: 35%;
+        visibility: hidden;
+        line-height: 22vh;
+        transition: all 0.4s;
+    }
+    
+    .checkIn {
+        width: 90%;
+        height: 15vh;
+        left: 5%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    
+    .checkImg {
+        background-image: url("../images/successDark.svg");
+        background-size: 7vh 7vh;
+        height: 13vh;
+        width: 20%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: -2.2vh;
+        right: 7%;
+        transition: all 0.4s;
+    }
+    
+    .checkImg1 {
+        background-image: url("../images/success1.svg");
+    }
+    
+    .left {
+        left: 5%;
+    }
+    
+    .time {
+        font-size: 2.2vh;
+        top: 8vh;
+        position: relative;
+        visibility: hidden;
+        width: 100%;
+        color: white;
+        z-index: 5;
+        visibility: visible;
+        text-align: center;
+        text-shadow: none;
+        position: absolute;
+    }
+    
+    .exit {
+        background-image: url("../images/ExitGrey1.png");
+        background-size: 5vh 5vh;
+        position: absolute;
+        height: 5vh;
+        width: 5vh;
+        background-repeat: no-repeat;
+        right: 0;
+        margin: 2vh;
+        z-index: 8 !important;
+    }
+    
+    .right3 {
+        right: -28%;
+    }
+    
+    .added {
+        text-shadow: none;
+        bottom: 2vh;
+        z-index: 6;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 3.5vh;
+    }
+    
+    .location {
+        width: 100%;
+        margin-top: 1vh;
+        transition: all 0.4s;
+        position: relative;
+        right: 0;
+    }
+    
+    .Data {
+        /* margin-left: 4%; */
+        color: rgba(76, 76, 76, 0.75);
+        font-size: 2.75vh;
+        height: 35%;
+        margin-top: 1vh;
+        padding-top: 1vh;
+        position: relative;
+        transition: all 0.4s;
+        overflow-y: hidden !important;
+        background-color: #e9e9e9;
+        padding-left: 4%;
+    }
+    
+    .smaller {
+        font-size: 2.25vh;
+        margin-right: 4%;
+    }
+    
+    .message {
+        position: absolute;
+        top: 0%;
+        z-index: 5;
+        width: 108%;
+        background-color: #e9e9e9;
+        height: 100%;
+        /* left: 0; */
+        right: -108%;
+        transition: all 0.4s;
+        background-size: cover;
+        z-index: 10;
+    }
+    
+    .right4 {
+        right: -4%;
+        transition: all 0.4s;
+    }
+    
+    .center {
+        left: 43%;
+        top: 30%;
+        position: relative;
+        width: 40%;
+    }
+    
+    .join {
+        border: 1px solid rgba(76, 76, 76, 0.75);
+        width: 40%;
+        height: 20%;
+        top: 40%;
+        position: relative;
+        left: 34%;
+        text-align: left;
+        line-height: 50px;
+        background-color: #f7f7f7;
+    }
+    
+    .right5 {
+        right: 100%;
+        position: relative;
+    }
+    
+    .butt {
+        width: 106%;
+        text-align: center;
+        height: 10vh;
+        padding-top: 2.3vh;
+        background-color: #f7f7f7;
+        left: 0;
+        margin-left: -4.1%;
+        margin-top: 1.5vh;
+    }
+    
+    html {
+        overflow-y: hidden !important;
+    }
+    
+    body {
+        overflow-y: hidden !important;
+    }
+    
+    .arrow {
+        position: absolute;
+        right: 5px;
+        width: 5%;
+        height: 5%;
+        bottom: 22%;
+    }
+    
+    .custom {
+        top: 52%;
+        width: 75%;
+        height: 15%;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: rgba(76, 76, 76, 0.9);
+        right: -80%;
+        position: fixed;
+        z-index: 1;
+        transition: all 0.4s;
+        border-radius: 15px 0 0 15px;
+        text-align: center;
+        vertical-align: bottom;
+        font-size: 7vh;
+    }
+    
+    .lower {
+        top: 60%;
+        visibility: visible;
+    }
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c

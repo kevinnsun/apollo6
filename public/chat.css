@@ -116,12 +116,28 @@ ul {
 }
 
 .message {
+<<<<<<< HEAD
     width: 100% !important;
     height: 8% !important;
     background-image: url("images/textbox.png") !important;
     padding-top: 30px;
 }
 
+=======
+    width: 90% !important;
+    /*height: 8% !important;*/
+    border-radius: 25px;
+    background: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    margin-bottom:15px;
+    padding-left: 50px;
+    transition: all 0.4s;
+}
+
+
+
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
 .inputMessage {
     font-size: 300%;
     font-family: Fox;
@@ -138,8 +154,15 @@ ul {
 }
 
 .image {
+<<<<<<< HEAD
     background-color: black;
     background-image: url("images/apolloLogo.png");
+=======
+    background-color: #584F4D;
+    box-shadow: 10px 10px 5px #888888;
+    /*background-image: url("images/apolloLogo.png");*/
+    
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
     height: 9vh;
     width: 100%;
     z-index: -1;
@@ -156,6 +179,18 @@ ul {
     margin-bottom: 15%;
 }
 
+<<<<<<< HEAD
+=======
+.return{
+        background-color: red;
+    height: 50px;
+    width: 50px;
+    z-index: 10;
+    position: fixed;
+    
+}
+
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
 
 /* Messages */
 
@@ -178,8 +213,12 @@ ul {
 .username {
     font-weight: 700;
     overflow: hidden;
+<<<<<<< HEAD
     padding-right: 15px;
     margin-left: 3vh;
+=======
+    padding-right: 30px;
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
     text-align: right;
 }
 

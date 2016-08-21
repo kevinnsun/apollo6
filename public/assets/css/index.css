@@ -12,6 +12,7 @@ body {
     padding: 0;
 }
 
+<<<<<<< HEAD
 .cover {
     position: fixed;
     left: -12px;
@@ -19,6 +20,8 @@ body {
     opacity: 0;
 }
 
+=======
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
 .bottom {
     position: absolute;
     bottom: 10px;

@@ -269,4 +269,13 @@ $(function() {
   socket.on('stop typing', function (data) {
     removeChatTyping(data);
   });
+<<<<<<< HEAD
+=======
+
+  $(".messages").scroll(function(){
+    $(".log").fadeOut();
+    $(".image").fadeOut();
+});
+
+>>>>>>> c24fd00d29b248a8d0681ad52904ea195d660c0c
 });
