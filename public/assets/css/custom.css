@@ -1,0 +1,386 @@
+@font-face {
+    font-family: Fox;
+    src: url("../../fonts/neutra.ttf");
+}
+
+#header h1 {
+    font-family: Fox;
+    color: black;
+    font-size: 69px;
+    word-spacing: -10px;
+    /*letter-spacing: 10px;*/
+    font-weight: 100000;
+    /*border: 1px solid black;*/
+}
+
+.logo {
+    max-width: 120px;
+    position: absolute;
+    top: 3px;
+    left: 60px;
+}
+
+.cover {
+    max-width: 120px;
+    position: absolute;
+    z-index: -1;
+    top: 3px;
+    left: 60px;
+}
+
+.honoluluHeader {
+    background-image: url("../../images/hawaii.jpg") !important;
+    height: 290px;
+    background-position: bottom !important;
+    /*Positioning*/
+    background-repeat: no-repeat !important;
+    /*Prevent showing multiple background images*/
+}
+
+.waikikiHeader {
+    height: 290px;
+    background-position: bottom !important;
+    /*Positioning*/
+    background-repeat: no-repeat !important;
+}
+
+.sizeFix {
+    font-size: 50px !important;
+    color: white !important;
+}
+
+.delSizeFix {
+    font-size: 40px !important;
+}
+
+#features-wrapper {
+    background-color: #e9e9e9;
+}
+
+#header-wrapper {
+    background-color: #e9e9e9;
+}
+
+#header {
+    box-shadow: none;
+}
+
+.padding-bottom {
+    /*border-bottom: solid 1px #888;*/
+    padding-bottom: 30px;
+    margin-bottom: 3em !important;
+}
+
+.hawaii {
+    background-image: url("../../images/hawaii.jpg") !important;
+}
+
+.myanmar {
+    background-image: url("../../images/myanmar.png") !important;
+}
+
+.london {
+    background-image: url("../../images/london.png") !important;
+}
+
+.surf {
+    background-image: url("../../images/Surfing.png") !important;
+}
+
+.luau {
+    background-image: url("../../images/luau.png") !important;
+}
+
+.snorkel {
+    background-image: url("../../images/Snorkeling.png") !important;
+}
+
+.copenhagen {
+    background-image: url("../../images/copenhagen.png") !important;
+}
+
+.vik {
+    background-image: url("../../images/vik.png") !important;
+}
+
+.tokyo {
+    background-image: url("../../images/tokyo.png") !important;
+}
+
+.calgary {
+    background-image: url("../../images/calgary.png") !important;
+}
+
+.waikiki {
+    background-image: url("../../images/waikiki.png") !important;
+}
+
+.diamondhead {
+    background-image: url("../../images/diamondhead.png") !important;
+}
+
+.bay {
+    background-image: url("../../images/bay.png") !important;
+}
+
+.greyBG {
+    background-color: #ddd;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    height: 114px !important;
+}
+
+.journeySupported {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nextButton {
+    position: absolute;
+    right: 5px;
+    /*top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);*/
+    bottom: 20px;
+    -webkit-filter: invert(100%);
+    /* Chrome, Safari, Opera */
+    filter: invert(100%);
+}
+
+.nextButtonTrav {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    /*-webkit-filter: invert(100%);*/
+    /* Chrome, Safari, Opera */
+    /*filter: invert(100%);*/
+}
+
+.location {
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.location:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.imageText {
+    color: whitesmoke;
+    font-size: 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.vertCent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.cityHeaderText {
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.cityHeader {
+    border: none !important;
+}
+
+.insuranceText {
+    color: #222;
+    font-size: 12px;
+    width: 85%;
+    line-height: 130%;
+}
+
+.largeInsText {
+    font-size: 17px;
+    /*margin-bottom: 5px;*/
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.profile {
+    color: 565656;
+    position: absolute;
+    /*width: 60%;*/
+    height: 25px;
+    text-align: center;
+    top: 26px;
+    right: 0px;
+}
+
+.tos {
+    width: 100%;
+    background-color: #ddd;
+    text-align: justify;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    height: 400px !important;
+    color: #222;
+    font-size: 12px;
+    line-height: 130%;
+    overflow: scroll;
+}
+
+.tosFix {
+    height: 300px !important;
+}
+
+.mainselection {
+    overflow: hidden;
+    width: 10%;
+    /*margin-left:35px;*/
+    background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px;
+    /* dropdown_arrow.png is a 31x28 image */
+    display: inline-block;
+}
+
+select {
+    border: 0;
+    background: transparent;
+    height: 32px;
+    border: 1px solid #d8d8d8;
+    padding-left: 10px;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+.largeText {
+    font-size: 30px;
+    line-height: 120%;
+}
+
+#myProgress {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#myBar {
+    border-radius: 5px;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    /*background-color: #002366;*/
+    background-color: #222;
+}
+
+.reward {
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #222;
+    text-align: center;
+    position: absolute;
+}
+
+.scratchie {
+    /*border: 3px solid yellow;*/
+    width: 89%;
+    height: 97px;
+    text-align: center;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    float: left;
+}
+
+.js-scratchie-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.waikikiFix {
+    position: relative;
+    font-family: Fox;
+    color: #777 !important;
+    z-index: 1;
+    height: 0px;
+    vertical-align: middle;
+    padding-top: 8%;
+    margin-bottom: 12%;
+    padding-left: 3%;
+}
+
+.Address {
+    font-size: 20px;
+    margin-bottom: 1em;
+    padding-left: 3%;
+}
+
+.main-gallery {
+    position: absolute !important;
+    width: 100%;
+    height: 80%;
+    z-index: 2;
+    top: 20%;
+    left: 0;
+}
+
+.gallery-cell {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    background: transparent;
+    counter-increment: gallery-cell;
+}
+
+.image1 {
+    height: 100%;
+    width: 100%;
+}
+
+.image2 {
+    height: 100%;
+    width: 100%;
+}
+
+.image3 {
+    height: 100%;
+    width: 100%;
+}
+
+.history {
+    text-align: left !important;
+    line-height: 23px;
+}
+
+.stuff {
+    text-align: left;
+    padding-bottom: 10px;
+    list-style-type: circle;
+    padding-right: 5vw;
+    position: relative;
+}
+
+.hotspot {
+    font-size: 8vh !important;
+}
