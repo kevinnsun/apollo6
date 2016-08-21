@@ -1,0 +1,21 @@
+{
+  "name": "NodejsStarterApp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "donghee214 <donghee214@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io": "^1.4.8",
+    "engine.io": "^1.6.11"
+  }
+}

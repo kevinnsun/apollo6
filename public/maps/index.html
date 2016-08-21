@@ -1,0 +1,126 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    </script>
+    <script src="https://use.fontawesome.com/d972d426ba.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">
+    </script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+</head>
+<style>
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #map {
+        height: 100vh;
+    }
+    
+    .button {
+        z-index: 10;
+        position: absolute;
+        bottom: 47px;
+        left: 40px;
+    }
+    
+    .backButton {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        right: 25px;
+        top: 25px;
+        opacity: 0.75;
+        z-index: 5;
+    }
+</style>
+
+<body>
+    <a href="javascript:history.back()">
+        <img src="images/arrows.svg" class="backButton">
+    </a>
+    <div class="box">
+        <div class="beach">
+            Waikiki Beach
+            <div class="distance">
+                0.1 KM
+            </div>
+            <div class="checkImg">
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="info">
+        <div class="exit">
+
+        </div>
+        <div class="waikiki">
+            <div class="added">
+                Reward has been added!
+            </div>
+            <div class="time">
+                Checked In At:<i> Sept 3, 4:21pm</i>
+            </div>
+        </div>
+        <div class="checkIn">
+
+        </div>
+
+        <div class="Data">
+            <div class="location">
+
+                Waikīkī, Honolulu, HI 96815, USA<br><br>650 Check In's<br><br>
+                <div class="smaller">
+                    It really should be known as Waikiki Beaches, with the many different sections that make up this two-mile stretch of white sand.
+                </div>
+                <div class="butt">
+                    Feed
+                    <div class="arrow">&#10095;</div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="center">
+                    First Time?
+                </div>
+
+                
+                <a href="../chat.html" target="_self">
+                    <div class="join">
+                        &nbsp; &#9998; &nbsp; &nbsp;Join Now
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div id="map">
+
+    </div>
+    <div id="capture"></div>
+
+</body>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOZPSSq2IzUG-L7oxcpHWEL0jkD1ZIgDc&callback=initMap">
+</script>
+
+</html>
