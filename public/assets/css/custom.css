@@ -321,13 +321,17 @@ select {
 .waikikiFix {
     position: relative;
     font-family: Fox;
-    color: #777 !important;
     z-index: 1;
     height: 0px;
     vertical-align: middle;
     padding-top: 8%;
     margin-bottom: 12%;
     padding-left: 3%;
+    color: black !important;
+    /*word-spacing: -10px;*/
+    letter-spacing: 1px;
+    font-weight: 100000;
+    /*border: 1px solid black;*/
 }
 
 .Address {
@@ -383,4 +387,14 @@ select {
 
 .hotspot {
     font-size: 8vh !important;
+}
+
+.backButtonW {
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 40px;
+    z-index: 20000;
+    opacity: 0.6;
 }
